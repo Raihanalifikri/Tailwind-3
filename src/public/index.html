@@ -20,7 +20,7 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="bg-white shadow-lg dark:bg-gray-900">
+    <nav class="bg-gradient-to-r from-cyan-800 from-10% via-gray-800 via-30% to-blue-950 to-90% shadow-lg dark:bg-gray-900">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 
             <h1 class="text-2xl font-Comic-Neue font-bold ">LOGO</h1>
@@ -36,7 +36,7 @@
             </button>
             <div class="hidden w-full md:block md:w-auto" id="navbar-default">
                 <ul
-                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-transparent md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0   dark:border-gray-700">
                     <li>
                         <a href="#"
                             class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
@@ -44,19 +44,19 @@
                     </li>
                     <li>
                         <a href="#"
-                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                            class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
                     </li>
                     <li>
                         <a href="#"
-                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+                            class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
                     </li>
                     <li>
                         <a href="#"
-                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
+                            class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
                     </li>
                     <li>
                         <a href="#"
-                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                            class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -65,24 +65,27 @@
     <!-- navbar End -->
 
     <!-- Home -->
-    <div class=" bg-slate-800 pb-10 lg:grid grid-cols-2  lg:justify-center">
+    <div class="  pb-10 lg:grid grid-cols-2  lg:justify-center bg-cover"
+        style="background-image:linear-gradient(rgba(0,0,0,0.5), rgb(0, 0, 0)), url('/image/bg3.jpeg');">
         <div class="flex justify-center lg:order-2 md:order-1 sm:order-1">
             <img src="/image/Headphone1.png" alt="" class="w-56 h-72 my-auto lg:w-96 lg:h-[35rem]">
         </div>
         <div class="justify-center my-auto text-center lg:order-1 md:order-2 sm:order-2 lg:text-left">
-            <h1 class="font-Poppins capitalize font-bold mb-4 text-white lg:px-10 lg:font-Comic-Neue text-3xl">Lorem ipsum dolor sit.</h1>
-            <p class="px-10 mb-4 text-white lg:text-1xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro amet
+            <h1 class="font-Poppins capitalize font-bold mb-4 text-white lg:px-10 lg:font-Comic-Neue text-3xl">Lorem
+                ipsum dolor sit.</h1>
+            <p class="px-10 mb-4 text-white lg:text-1xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro
+                amet
                 ducimus blanditiis expedita nisi tempora, officia voluptatibus aperiam tenetur minima harum magni in?
                 Commodi minima quas dicta hic, distinctio velit!</p>
-                <div class="lg:px-10">
-                    <a href=""
-                class="hover:bg-black hover:text-cyan-400 lg:  transition-all ease-in duration-300 font-Comic-Neue bg-cyan-300 py-2 px-4 rounded-lg">Get
-                Started</a>
-                </div>
-            
+            <div class="lg:px-10">
+                <a href=""
+                    class="hover:bg-black hover:text-cyan-400 lg:  transition-all ease-in duration-300 font-Comic-Neue bg-cyan-300 py-2 px-4 rounded-lg">Get
+                    Started</a>
+            </div>
+
         </div>
-        </div>
-        
+    </div>
+
     </div>
     <!-- Home end -->
 
@@ -97,7 +100,7 @@
 
         <div class="flex ">
             <!-- Card 1-->
-            <div class="mx-auto lg:grid grid-cols-3 gap-5 md:grid md:grid-cols-2">
+            <div class="mx-auto lg:grid lg:grid-cols-3 gap-5 md:grid md:grid-cols-2">
                 <div class="bg-black shadow-lg  shadow-blue-400 mt-5 rounded-md border border-spacing-4 border-red-50 ">
                     <p class="text-center text-white mb-2 mt-3"><i class="fa-solid fa-gamepad text-5xl"></i></p>
                     <h1 class="text-center text-white text-3xl font-Poppins font-bold mb-2">Gaming</h1>
@@ -126,8 +129,7 @@
 
                 </div>
                 <!-- Card 3 -->
-                <div
-                    class="bg-black shadow-lg shadow-blue-400 mt-5 rounded-md border border-spacing-4 border-red-50 md:grid md:text-center ">
+                <div class="bg-black shadow-lg shadow-blue-400 mt-5 rounded-md border border-spacing-4 border-red-50 ">
                     <p class="text-center text-white mb-2 mt-3"><i class="fa-solid fa-pencil text-5xl"></i></p>
                     <h1 class="text-center text-white text-3xl font-Poppins font-bold mb-2">Study</h1>
                     <p class="text-center text-white  mb-2 ">Lorem ipsum dolor sit amet consectetur.</p>
@@ -146,7 +148,7 @@
 
     <!-- Product -->
     <div class="flex">
-        <div class="bg-black mx-auto px-5">
+        <div class="bg-black mx-auto px-5 w-full">
             <div class="">
                 <h1 class="pt-7 text-center text-5xl text-cyan-700 font-Poppins font-bold">Our <span
                         class="text-white">Product</span></h1>
@@ -154,31 +156,35 @@
             </div>
 
             <div class="flex">
-                <div class="mx-auto lg:grid grid-cols-3 gap-5 md:grid md:grid-cols-2">
+                <div class="mx-auto lg:grid lg:grid-cols-3 gap-5 md:grid md:grid-cols-2">
                     <div
                         class="group hover:shadow-lg hover:shadow-red-800 duration-300 transition-all  ease-in bg-zinc-900 px-16 py-5 shadow-lg shadow-red-400 mt-5 rounded-md border border-spacing-4 border-red-50 mb-8 ">
-                        <img src="/image/hed2.png" alt="" class="w-56 h-56 mx-auto group-hover:-translate-y-5 group-hover:scale-[1.07] transition-all ease-in duration-300 ">
-                        <h1 class="text-center text-white text-3xl font-Poppins font-bold mb-2 group-hover:text-red-400 transition-all ease-in duration-300"><a href="">Headset</a></h1>
-
+                        <img src="/image/hed2.png" alt=""
+                            class="w-56 h-56 mx-auto group-hover:-translate-y-5 group-hover:scale-[1.07] transition-all ease-in duration-300 ">
+                        <h1
+                            class="text-center text-white text-3xl font-Poppins font-bold mb-2 group-hover:text-red-400 transition-all ease-in duration-300">
+                            <a href="">Headset</a></h1>
                     </div>
 
                     <div
                         class="group hover:shadow-lg hover:shadow-red-800 duration-300 transition-all ease-in bg-zinc-900 px-16 py-5 shadow-lg shadow-red-400 mt-5 rounded-md border border-spacing-4 border-red-50 mb-8 ">
-                        <img src="/image/Mouse.png" alt="" class="w-44 h-56 mx-auto group-hover:-translate-y-5 group-hover:scale-[1.07] transition-all ease-in duration-[450ms]">
-                        <h1 class="text-center text-white text-3xl font-Poppins font-bold mb-2 group-hover:text-red-400 transition-all ease-in duration-300"><a href="">Mouse</a></h1>
+                        <img src="/image/Mouse.png" alt=""
+                            class="w-44 h-56 mx-auto group-hover:-translate-y-5 group-hover:scale-[1.07] transition-all ease-in duration-[450ms]">
+                        <h1
+                            class="text-center text-white text-3xl font-Poppins font-bold mb-2 group-hover:text-red-400 transition-all ease-in duration-300">
+                            <a href="">Mouse</a></h1>
                     </div>
 
                     <div
-                        class="group hover:shadow-lg hover:shadow-red-800 duration-300 transition-all ease-in bg-zinc-900 px-16 py-5 shadow-lg shadow-red-400 mt-5 md:w-full rounded-md border border-spacing-4 border-red-50 mb-8 ">
-                        <img src="/image/key2 (1).png" alt="" class="w-44 h-56 mx-auto group-hover:-translate-y-5 group-hover:scale-[1.07] transition-all ease-in duration-[450ms]">
-                        <h1 class="text-center text-white text-3xl font-Poppins font-bold mb-2 group-hover:text-red-400 transition-all ease-in duration-300"><a href="">Keyboard</a></h1>
+                        class="group hover:shadow-lg hover:shadow-red-800 duration-300 transition-all ease-in bg-zinc-900 px-16 py-5 shadow-lg shadow-red-400 mt-5 md:w-full rounded-md border border-spacing-4 border-red-50 mb-8 md:hidden lg:block">
+                        <img src="/image/key2 (1).png" alt=""
+                            class="w-44 h-56 mx-auto group-hover:-translate-y-5 group-hover:scale-[1.07] transition-all ease-in duration-[450ms]">
+                        <h1
+                            class="text-center text-white text-3xl font-Poppins font-bold mb-2 group-hover:text-red-400 transition-all ease-in duration-300">
+                            <a href="">Keyboard</a></h1>
                     </div>
 
-                    <div
-                        class="group hover:shadow-lg hover:shadow-red-800 duration-300 transition-all ease-in bg-zinc-900 px-16 py-5 shadow-lg shadow-red-400 mt-5 md:w-full rounded-md border border-spacing-4 border-red-50 mb-8 ">
-                        <img src="/image/key2 (1).png" alt="" class="w-44 h-56 mx-auto group-hover:-translate-y-5 group-hover:scale-[1.07] transition-all ease-in duration-[450ms]">
-                        <h1 class="text-center text-white text-3xl font-Poppins font-bold mb-2 group-hover:text-red-400 transition-all ease-in duration-300"><a href="">Keyboard</a></h1>
-                    </div>
+
                 </div>
             </div>
 
@@ -186,20 +192,55 @@
     </div>
 
     <!-- Product End -->
+
+    <!-- Brand -->
     <div class="flex">
-        <div class="bg-black mx-auto container px-5">
+        <div class="bg-black mx-auto w-full px-5 py-10">
+            <div class="">
+                <h1 class="pt-7 text-center text-5xl text-white font-Poppins font-bold">Brands w<span
+                        class="text-cyan-500">e Sell</span></h1>
+                <p class="text-cyan-300 text-center font-Poppins font-thin">Lorem ipsum dolor sit amet.</p>
+            </div>
+
             <div class="flex">
-                <div class="mx-auto lg:grid grid-cols-3 gap-5">
+                <div class="mx-auto lg:grid lg:grid-cols-5  gap-4 md:grid md:grid-cols-2">
+                    <!-- Card 1 -->
                     <div
-                        class="group hover:shadow-lg hover:shadow-red-800 duration-300 transition-all ease-in bg-zinc-900 px-16 py-5 shadow-lg shadow-red-400 mt-5 rounded-md border border-spacing-4 border-red-50 mb-8 ">
-                        <img src="/image/key2 (1).png" alt="" class="w-44 h-56 mx-auto group-hover:-translate-y-5 group-hover:scale-[1.07] transition-all ease-in duration-[450ms]">
-                        <h1 class="text-center text-white text-3xl font-Poppins font-bold mb-2 group-hover:text-red-400 transition-all ease-in duration-300"><a href="">Keyboard</a></h1>
+                        class="group hover:shadow-lg hover:shadow-red-800 duration-300 transition-all ease-in bg-zinc-900 px-5 py-5 shadow-lg shadow-red-400 mt-5 rounded-md border border-spacing-4 border-red-50 mb-8 ">
+                        <img src="/image/Republic Of Gamer.png" alt=""
+                            class="w-56 h-64 lg:w-60 lg:h-64 mx-auto group-hover:-translate-y-5 group-hover:scale-[1.07] transition-all ease-in duration-[450ms]">
+                    </div> <!-- Card 2 -->
+                    <div
+                        class="group hover:shadow-lg hover:shadow-red-800 duration-300 transition-all ease-in bg-zinc-900 px-5 py-5 shadow-lg shadow-red-400 mt-5 rounded-md border border-spacing-4 border-red-50 mb-8 ">
+                        <img src="/image/Predator1.png" alt=""
+                            class="w-56 h-64 mx-auto group-hover:-translate-y-3 group-hover:scale-[1.07] transition-all ease-in duration-[450ms]">
+                    </div> <!-- Card3 -->
+                    <div
+                        class="group hover:shadow-lg hover:shadow-red-800 duration-300 transition-all ease-in bg-zinc-900 px-5 py-5 shadow-lg shadow-red-400 mt-5 rounded-md border border-spacing-4 border-red-50 mb-8 ">
+                        <img src="/image/Republic Of Gamer.png" alt=""
+                            class="w-56 h-64 mx-auto group-hover:-translate-y-5 group-hover:scale-[1.07] transition-all ease-in duration-[450ms]">
+                    </div> <!-- card 4 -->
+                    <div
+                        class="group hover:shadow-lg hover:shadow-red-800 duration-300 transition-all ease-in bg-zinc-900 px-5 py-5 shadow-lg shadow-red-400 mt-5 rounded-md border border-spacing-4 border-red-50 mb-8 ">
+                        <img src="/image/Republic Of Gamer.png" alt=""
+                            class="w-56 h-64 mx-auto group-hover:-translate-y-5 group-hover:scale-[1.07] transition-all ease-in duration-[450ms]">
+                    </div> <!-- Card 5 -->
+                    <div
+                        class="group hover:shadow-lg hover:shadow-red-800 duration-300 transition-all ease-in bg-zinc-900 px-5 py-5 shadow-lg shadow-red-400 mt-5 rounded-md border border-spacing-4 border-red-50 mb-8 md:hidden lg:block">
+                        <img src="/image/Republic Of Gamer.png" alt=""
+                            class="w-56 h-64 mx-auto group-hover:-translate-y-5 group-hover:scale-[1.07] transition-all ease-in duration-[450ms]">
                     </div>
+
                 </div>
             </div>
-               
+
         </div>
     </div>
+    <!-- Brad End -->
+
+    <!-- Barang -->
+    
+    <!-- Barang End -->
 
 
     <script src="/node_modules/flowbite/dist/flowbite.min.js"></script>
