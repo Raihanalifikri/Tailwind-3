@@ -18,7 +18,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="dark">
+<body class="menu">
     <!-- Navbar -->
     <nav class="bg-gradient-to-r from-cyan-800 from-10% via-gray-800 via-30% to-blue-950 to-90% shadow-lg dark:bg-gray-900">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -60,20 +60,29 @@
                     </li>
                 </ul>
             </div>
+            <button class="menu-bar w-10 h-10 bg-neutral-900  rounded-full text-white  font-Poppins font-semibold dark:hidden" >
+                DRK
+            </button>
+             <button class="menu-bars w-10 h-10 bg-white  rounded-full text-black  font-Poppins font-semibold hidden dark:block" >
+                LHT
+            </button>
+              
         </div>
     </nav>
     <!-- navbar End -->
 
+<!-- style="background-image:linear-gradient(rgba(0,0,0,0.5), rgb(255, 255, 255)), url('image/bg3.jpeg');" -->
+
     <!-- Home -->
-    <div class="  pb-10 lg:grid grid-cols-2  lg:justify-center bg-cover"
-        style="background-image:linear-gradient(rgba(0,0,0,0.5), rgb(255, 255, 255)), url('image/bg3.jpeg');">
+    <div class="  pb-10 lg:grid grid-cols-2  lg:justify-center bg-cover  bg-[linear-gradient(rgba(0,0,0,0),rgba(255,255,255)),url('image/bg3.jpeg')]   dark:bg-[linear-gradient(rgba(0,0,0,0),rgba(0,0,0)),url('image/bg3.jpeg')]   " 
+        >
         <div class="flex justify-center lg:order-2 md:order-1 sm:order-1">
             <img src="image/Mouse2.png" alt="" class="w-56 h-72 my-auto lg:w-96 lg:h-[35rem]">
         </div>
         <div class="justify-center my-auto text-center lg:order-1 md:order-2 sm:order-2 lg:text-left">
-            <h1 class="font-Poppins capitalize font-bold mb-4 text-white lg:px-10 lg:font-Comic-Neue text-3xl">Lorem
+            <h1 class="font-Poppins capitalize font-bold mb-4 text-black dark:text-white lg:px-10 lg:font-Comic-Neue text-3xl">Lorem
                 ipsum dolor sit.</h1>
-            <p class="px-10 mb-4 text-white lg:text-1xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro
+            <p class="px-10 mb-4 text-black dark:text-white lg:text-1xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro
                 amet
                 ducimus blanditiis expedita nisi tempora, officia voluptatibus aperiam tenetur minima harum magni in?
                 Commodi minima quas dicta hic, distinctio velit!</p>
@@ -253,18 +262,18 @@
                         class="group  bg-transparent px-7 py-5   mt-5 md:w-full rounded-md   mb-8  lg:block">
                         <img src="image/hed2.png" alt=""
                             class="w-52 h-56  group-hover:-translate-y-5 group-hover:scale-[1.07] transition-all ease-in duration-[450ms]">
-                        <h1
-                        class="text-center text-white text-1xl mx-whiteblack group-hover:bg-black mx-9 py-2 rounded-lg  font-Poppins font-bold mb-2  transition-all ease-in duration-300">
-                        <a href="">BUY NOW <i class="fa-solid fa-cart-shopping pl-2 text-white"></i></a></h1>
+                            <h1
+                            class="text-center text-white text-1xl bg-white dark:bg-black dark:group-hover:bg-white group-hover:bg-black dark:text-black dark:group-hover:text-black py-2 mx-9 rounded-lg  font-Poppins font-bold mb-2  transition-all ease-in duration-300">
+                            <a href="">BUY NOW <i class="fa-solid fa-cart-shopping pl-2 dark:text-black  text-white"></i></a></h1>
                     </div>
 
                     <div
                         class="group  bg-transparent px-16 py-5   mt-5 md:w-full rounded-md   mb-8  lg:block">
                         <img src="image/Mouse2.png" alt=""
                             class="w-44 h-56 mx-auto group-hover:-translate-y-5 group-hover:scale-[1.07] transition-all ease-in duration-[450ms]">
-                        <h1
-                            class="text-center text-white text-1xl bg-white group-hover:bg-black py-2 rounded-lg  font-Poppins font-bold mb-2  transition-all ease-in duration-300">
-                            <a href="">BUY NOW <i class="fa-solid fa-cart-shopping pl-2 text-white"></i></a></h1>
+                            <h1
+                            class="text-center text-white text-1xl bg-white dark:bg-black dark:group-hover:bg-white group-hover:bg-black dark:text-black dark:group-hover:text-black py-2 rounded-lg  font-Poppins font-bold mb-2  transition-all ease-in duration-300">
+                            <a href="">BUY NOW <i class="fa-solid fa-cart-shopping pl-2 dark:text-black  text-white"></i></a></h1>
                     </div>
 
                     <div
@@ -272,8 +281,8 @@
                         <img src="image/key2 (1).png" alt=""
                             class="w-44 h-56 mx-auto group-hover:-translate-y-5 group-hover:scale-[1.07] transition-all ease-in duration-[450ms]">
                         <h1
-                            class="text-center text-white text-1xl bg-white group-hover:bg-black py-2 rounded-lg  font-Poppins font-bold mb-2  transition-all ease-in duration-300">
-                            <a href="">BUY NOW <i class="fa-solid fa-cart-shopping pl-2 text-white"></i></a></h1>
+                            class="text-center text-white text-1xl bg-white dark:bg-black dark:group-hover:bg-white group-hover:bg-black dark:text-black dark:group-hover:text-black py-2 rounded-lg  font-Poppins font-bold mb-2  transition-all ease-in duration-300">
+                            <a href="">BUY NOW <i class="fa-solid fa-cart-shopping pl-2 dark:text-black  text-white"></i></a></h1>
                     </div>
 
                     
@@ -281,9 +290,9 @@
                         class="group  bg-transparent px-16 py-5   mt-5 md:w-full rounded-md   mb-8  lg:block">
                         <img src="image/key2 (1).png" alt=""
                             class="w-44 h-56 mx-auto group-hover:-translate-y-5 group-hover:scale-[1.07] transition-all ease-in duration-[450ms]">
-                        <h1
-                            class="text-center text-white text-1xl bg-white group-hover:bg-black py-2 rounded-lg  font-Poppins font-bold mb-2  transition-all ease-in duration-300">
-                            <a href="">BUY NOW <i class="fa-solid fa-cart-shopping pl-2 text-white"></i></a></h1>
+                            <h1
+                            class="text-center text-white text-1xl bg-white dark:bg-black dark:group-hover:bg-white group-hover:bg-black dark:text-black dark:group-hover:text-black py-2 rounded-lg  font-Poppins font-bold mb-2  transition-all ease-in duration-300">
+                            <a href="">BUY NOW <i class="fa-solid fa-cart-shopping pl-2 dark:text-black  text-white"></i></a></h1>
                     </div>
 
 
@@ -295,29 +304,29 @@
     <!-- Barang End -->
 
     <!-- Footer -->
-    <div class="flex justify-between px-5 border-t-2 bg-white py-10">
+    <div class="flex justify-between px-5 border-t-2 dark:bg-black bg-white py-10">
         <div class="my-auto">
-            <h1 class="text-black text-[20px]">logo</h1>
+            <h1 class="text-black dark:text-white text-[20px]">logo</h1>
         </div>
 
         <ul class="flex gap-5">
             <li class="text-cyan-700 font-Comic-Neue  lg:text-[20px]"><a href="">Home</a></li>
-            <li class="text-black font-Comic-Neue hover:text-cyan-700 transition-all ease-in lg:text-[20px]"><a href="">Home</a></li>
-            <li class="text-black font-Comic-Neue hover:text-cyan-700 transition-all ease-in lg:text-[20px]"><a href="">Home</a></li>
-            <li class="text-black font-Comic-Neue hover:text-cyan-700 transition-all ease-in lg:text-[20px]"><a href="">Home</a></li>
+            <li class="text-black dark:text-white font-Comic-Neue hover:text-cyan-700 transition-all ease-in lg:text-[20px]"><a href="">Home</a></li>
+            <li class="text-black dark:text-white font-Comic-Neue hover:text-cyan-700 transition-all ease-in lg:text-[20px]"><a href="">Home</a></li>
+            <li class="text-black dark:text-white font-Comic-Neue hover:text-cyan-700 transition-all ease-in lg:text-[20px]"><a href="">Home</a></li>
         </ul>
 
         <div class="lg:flex gap-4">
-            <i class="fa-brands fa-linkedin lg:text-[25px]  text-center text-black"></i>
-            <i class="fa-brands fa-instagram lg:text-[25px]  text-center text-black"></i>
-            <i class="fa-brands fa-github lg:text-[25px]  text-center text-black"></i>
+            <i class="fa-brands fa-linkedin lg:text-[25px]  text-center text-black dark:text-white"></i>
+            <i class="fa-brands fa-instagram lg:text-[25px]  text-center text-black dark:text-white"></i>
+            <i class="fa-brands fa-github lg:text-[25px]  text-center text-black dark:text-white"></i>
         </div>
 
         
     </div>
     <!-- Footer end -->
 
-
+    <script src="script.js"></script>
     <script src="/node_modules/flowbite/dist/flowbite.min.js"></script>
 </body>
 

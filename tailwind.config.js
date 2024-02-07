@@ -10,12 +10,15 @@ module.exports = {
         'Poppins' : ['Poppins'],
         'Shadows-Into-Light' : ['Shadows Into Light'],
         'Comic-Neue' : ['Comic Neue']
+      },
+      backgroundImage: {
+        'bg3': "url('/image/bg3.jpeg')", 
       }
     },
   },
   plugins: [
     require('flowbite/plugin')
   ],
-  darkMode: "class"
+  darkMode: ['class'],
 }
 
